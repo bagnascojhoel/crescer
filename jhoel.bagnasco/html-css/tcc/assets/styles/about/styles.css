@@ -1,0 +1,155 @@
+#header {
+  background: no-repeat url("../../images/sobre-nos/background-header.png");
+  background-size: cover;
+}
+
+/* out-team */
+
+#our-team .section-title {
+  margin-bottom: 0;
+}
+
+.tiles {
+  margin: 0;
+  padding: 30px 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tile {
+  --side: 250px;
+  width: var(--side);
+  height: var(--side);
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.tile__photo {
+  display: block;
+  height: 100%;
+}
+
+.tile__details {
+  padding: var(--gutter);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  border: 3px solid var(--color-primary);
+  transition: .3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tile:hover > .tile__details{
+  transform: translateY(-100%);
+}
+
+.tile__title,
+.tile__description {
+  color: white;
+}
+
+.tile__description {
+  margin: 0;
+}
+
+@media (max-width: 1440px) {
+  .tile {
+    --side: 200px;
+    width: var(--side);
+    height: var(--side);
+  }
+}
+
+@media (max-width: 1024px) {
+  .tiles {
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .tile {
+    margin: var(--small-gutter);
+  }
+}
+
+@media (max-width: 425px) {
+}
+
+/* goals */
+
+#goals {
+  background-color: var(--color-light-grey);
+}
+
+.goals-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25%;
+}
+
+.goal__header {
+  margin-bottom: var(--gutter);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.goal__title {
+  margin: 0;
+  margin-left: var(--gutter);
+  font-size: 2.8rem;
+  color: var(--color-secondary);
+}
+
+.goal__description {
+  color: var(--color-grey);
+}
+
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1024px) {
+
+  .goals-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .goal {
+    width: 40%;
+    margin: var(--gutter);
+  }
+
+  .goal__description {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .goal {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .goal {
+    margin: 30px 0;
+  }
+}

@@ -1,0 +1,13 @@
+.battle-button{
+    margin-top: 5px;
+    background-color:  #351205;
+    border-radius: 5px;
+}
+
+.battle-button a{
+    color: #f6eed8;
+    width: 97%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}

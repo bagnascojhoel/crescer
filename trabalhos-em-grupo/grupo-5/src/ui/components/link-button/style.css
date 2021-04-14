@@ -1,0 +1,18 @@
+.link-button {
+  padding: var(--small-gutter) 0;
+  display: inline-block;
+  color: var(--color-light-yellow);
+  text-align: center;
+  background-color: #351205;
+  margin-left: 5px;
+  width: 75%;
+}
+
+.link-button--secondary{
+  margin-left: 20px;
+  background-color: var(--color-light-yellow);
+  color: var(--color-brown);
+  width: 65px;
+}
+
+

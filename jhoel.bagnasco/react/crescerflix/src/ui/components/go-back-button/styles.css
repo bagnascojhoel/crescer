@@ -1,0 +1,13 @@
+.go-back-button {
+  --color: var(--color-gray);
+  --color-hover: var(--color-primary);
+}
+
+.go-back-button:hover {
+  cursor: pointer;
+}
+
+.go-back-button__icon {
+  height: 30px;
+  fill: var(--color);
+}

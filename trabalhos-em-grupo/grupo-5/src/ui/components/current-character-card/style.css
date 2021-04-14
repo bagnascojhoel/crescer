@@ -1,0 +1,13 @@
+.current-character{
+    display: flex;
+    height: 50px;
+    border-radius: 15px;
+    background-color: var(--color-yellow);
+    color: var(--color-light-yellow);
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.current-character .avatar{
+    background-position: top;
+}

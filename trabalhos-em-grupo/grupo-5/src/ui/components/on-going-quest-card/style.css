@@ -1,0 +1,8 @@
+.on-going-quest-card {
+  padding: var(--small-gutter);
+}
+
+.on-going-quest-card--hide {
+  cursor: normal;
+  opacity: 0;
+}

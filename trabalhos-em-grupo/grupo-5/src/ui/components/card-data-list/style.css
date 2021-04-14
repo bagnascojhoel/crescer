@@ -1,0 +1,11 @@
+.card-data-list {
+  margin: var(--small-gutter);
+  padding-left: 0;
+  list-style: none;
+}
+
+.card-data-list__item {
+  margin-bottom: var(--mini-gutter);
+  font-size: 1rem;
+  text-align: left;
+}

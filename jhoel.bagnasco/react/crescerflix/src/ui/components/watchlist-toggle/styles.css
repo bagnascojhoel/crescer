@@ -1,0 +1,7 @@
+.watchlist-toggle {
+  padding: var(--mini-gutter) 0;
+}
+
+.watchlist-toggle:hover {
+  cursor: pointer;
+}

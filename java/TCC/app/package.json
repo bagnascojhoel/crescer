@@ -1,0 +1,6 @@
+{
+  "name": "{nome-do-seu-usuario-no-gitlab-da-cwi}",
+  "scripts": {
+    "start": "{script para iniciar o projeto}"
+  }
+}

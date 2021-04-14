@@ -1,0 +1,29 @@
+.pagination {
+  padding: 0;
+  margin: var(--gutter) auto;
+  display: inline-block;
+
+  list-style: none;
+}
+
+.pagination__button-container {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pagination__button {
+  --color: var(--color-gray);
+
+  padding: 10px;
+  color: var(--color);
+  text-decoration: none;
+  fill: var(--color);
+}
+
+.pagination__button--active {
+  color: var(--color-secondary);
+}
+
+.pagination__button__icon {
+  height: 18px;
+}

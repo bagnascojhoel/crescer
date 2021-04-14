@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(244, 209, 133, .3);
+
+  --color-primary: #f4d185;
+  --color-shadow-primary: rgba(244, 209, 133, 0.8);
+  --color-text-on-primary: white;
+  --color-secondary: #9dff7c;
+  --color-shadow-secondary: rgba(157, 255, 124, 0.8);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.button-shadow {
+  position: relative;
+  display: inline-block;
+}
+
+.button-shadow::after,
+.button-shadow::before {
+  border-radius: var(--border-radius);
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.button-shadow::before {
+  box-shadow: -15px -15px 30px var(--color-shadow-primary);
+}
+.button-shadow::after {
+  box-shadow: 15px 15px 30px rgba(255, 255, 255, 0.8);
+}

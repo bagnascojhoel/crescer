@@ -1,0 +1,33 @@
+.quest-card {
+  padding: var(--small-gutter);
+  margin-right: var(--gutter);
+  margin-bottom: var(--gutter);
+
+  display: inline-flex;
+  flex-direction: row;
+
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--color-yellow);
+  box-shadow: var(--shadow);
+  
+  text-decoration: none;
+  color: var(--color-light-yellow);
+}
+
+.quest-card:hover {
+  cursor: pointer;
+}
+
+.quest-card:focus {
+  outline: none;
+}
+
+.quest-card__title {
+  width: 300px;
+  text-align: left;
+}
+
+.quest-card--disabled {
+  filter: grayscale(1);
+}

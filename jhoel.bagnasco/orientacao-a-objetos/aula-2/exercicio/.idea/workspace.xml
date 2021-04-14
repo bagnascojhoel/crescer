@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="730f671b-f256-4cdf-adb8-bbc73899f129" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hI8ulyOlpVMa9OqlB1BU9iefGz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../aula-3/exemplo" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercicio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculadoraTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="730f671b-f256-4cdf-adb8-bbc73899f129" name="Default Changelist" comment="" />
+      <created>1599687473851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599687473851</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="273" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599758201819">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state x="743" y="273" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599758201819" />
+    <state width="914" height="268" key="GridCell.Tab.0.bottom" timestamp="1599691795546">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state width="914" height="268" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599691795546" />
+    <state width="914" height="268" key="GridCell.Tab.0.center" timestamp="1599691795546">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state width="914" height="268" key="GridCell.Tab.0.center/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599691795546" />
+    <state width="914" height="268" key="GridCell.Tab.0.left" timestamp="1599691795546">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state width="914" height="268" key="GridCell.Tab.0.left/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599691795546" />
+    <state width="914" height="268" key="GridCell.Tab.0.right" timestamp="1599691795546">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state width="914" height="268" key="GridCell.Tab.0.right/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599691795546" />
+    <state x="152" y="408" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599687932952">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state x="152" y="408" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599687932952" />
+    <state x="0" y="117" width="1372" height="803" key="new project wizard" timestamp="1599691772152">
+      <screen x="0" y="26" width="1920" height="1004" />
+    </state>
+    <state x="0" y="117" width="1372" height="803" key="new project wizard/1920.0.1920.1080/0.26.1920.1004@0.26.1920.1004" timestamp="1599691772152" />
+  </component>
+</project>

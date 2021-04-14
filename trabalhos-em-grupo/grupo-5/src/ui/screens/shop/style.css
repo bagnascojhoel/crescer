@@ -1,0 +1,66 @@
+.item-card{
+    padding: var(--small-gutter);
+    margin-right: var(--gutter);
+    margin-bottom: var(--gutter);
+    width: 360px;
+    
+    display: inline-flex;
+    flex-direction: row;
+    
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.purchase-card {
+    background-color: var(--color-yellow);
+    color: var(--color-light-yellow);
+  }
+
+.item-image{
+      height: 90px;
+      width: 90px;
+      border-radius: var(--border-radius);
+      margin: 0 auto;
+}
+.item-content-box,
+.item-card-text{
+    display: flex;
+    flex-direction: column;
+}
+.item-content-box > button{
+    margin-top: 8px;
+}
+
+.item-content-box button{
+    justify-content: center;
+    width: 170px;
+}
+.sell-card{
+    background-color: white;
+    color: var(--color-brown);
+}
+
+.sell-cards-list{
+    min-width: 350px;
+    border-radius: var(--border-radius);
+    background-color: var(--color-light-yellow);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sell-cards-list .sell-card {
+    margin-left: 30px;
+    width: 270px;
+    text-align: start;
+}
+
+.store-items{
+    display: flex;
+}
+.store-items .card-list {
+    display: block;
+}
+.inventory-title{
+    color: var(--color-brown);
+}

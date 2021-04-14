@@ -1,0 +1,30 @@
+.fighter-details {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+
+.fighter-details--disabled {
+  opacity: 0;
+}
+
+.fighter-details__image {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.fighter-details__name {
+  font-size: 36px;
+}
+.fighter-details__remove-button {
+  background: none;
+  border: none;
+  color: inherit;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: bold;
+}

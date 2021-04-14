@@ -1,0 +1,22 @@
+.overlay-box {
+  padding: var(--gutter);
+  margin: var(--small-gutter);
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.overlay-box__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .7;
+}
+
+.overlay-box__content {
+  position: relative;
+  z-index: 1;
+}

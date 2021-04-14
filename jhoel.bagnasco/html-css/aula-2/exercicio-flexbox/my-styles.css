@@ -1,0 +1,50 @@
+body {
+  --gutter: 15px;
+}
+
+.space-between {
+  padding: 10px var(--gutter);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar-wrapper__title > .title {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.avatar-wrapper__title > .subtitle {
+  margin: 0;
+}
+
+.title, .subtitle {
+  font-weight: 300;
+  font-size: small;
+}
+
+.post-actions-wrapper > svg {
+  margin-right: 10px;
+}
+
+.avatar-wrapper__title {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-counter-wrapper {
+  padding: 0 var(--gutter);
+}
+
+.view-counter-wrapper > p{
+  margin: 0;
+  font-size: small;
+  font-weight: 300;
+}

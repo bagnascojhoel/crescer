@@ -1,0 +1,24 @@
+.thumbnail {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background-color: var(--color-gray);
+}
+
+.thumbnail--large {
+  width: 300px;
+  height: 450px;
+}
+
+.thumbnail__image {
+  height: 100%;
+  display: block;
+}

@@ -1,0 +1,20 @@
+.fighter-selection-item {
+  width: 150px;
+  background: none;
+  border: 0;
+  transition: 0.3s;
+  padding: 0;
+}
+
+.fighter-selection-item:focus {
+  outline: none;
+}
+
+.fighter-selection-item__image {
+  width: 100%;
+  display: block;
+}
+
+.fighter-selection-item__image--selected {
+  filter: grayscale(100%);
+}

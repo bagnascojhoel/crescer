@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  max-width: 600px;
+  min-width: 30vw;
+  position: relative;
+  box-shadow: 0 0 50px 15px rgba(0, 0, 0, .2);
+}
+
+.content__image {
+  display: block;
+}
+
+.content__text {
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+  font-family: "Arial", sans-serif;
+  line-height: 1.5em;
+}

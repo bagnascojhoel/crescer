@@ -1,0 +1,30 @@
+.dashboard-option {
+  width: 200px;
+  margin: var(--small-gutter);
+  padding: var(--gutter);
+  padding-bottom: 0;
+  display: inline-block;
+  
+  background: linear-gradient(120deg, var(--color-primary), var(--color-gray) );
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+
+  transition: .3s;
+}
+
+.dashboard-option:first-of-type {
+  margin-left: 0;
+}
+
+.dashboard-option:hover {
+  transform: scale(1.05);
+}
+
+.dashboard-option__text {
+  font-size: inherit;
+}
+

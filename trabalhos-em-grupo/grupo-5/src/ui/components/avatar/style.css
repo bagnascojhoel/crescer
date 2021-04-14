@@ -1,0 +1,14 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--border-radius);
+}
+
+.avatar--round {
+  border-radius: 30%;
+}

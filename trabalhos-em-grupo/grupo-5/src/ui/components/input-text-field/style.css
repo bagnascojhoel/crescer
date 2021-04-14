@@ -1,0 +1,25 @@
+.input-text-field {
+  --color: var(--color-brown);
+}
+
+.input-text-field__label {
+  display: block;
+  margin: var(--small-gutter) 0 var(--mini-gutter) 0;
+
+  text-transform: capitalize;
+  font-weight: var(--font-weight-normal);
+  color: var(--color);
+  font-size: 1rem;
+}
+
+.input-text-field__input {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: var(--small-gutter);
+
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color);
+  
+  color: var(--color);
+
+}

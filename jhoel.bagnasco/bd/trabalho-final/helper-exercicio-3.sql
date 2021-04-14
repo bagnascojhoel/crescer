@@ -1,0 +1,1 @@
+select nome_empresa from table(pck_licitacao.fnc_get_empresas('1:2:3:100:150:500:1000:200:1100'));

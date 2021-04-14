@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    username: aluno12_cre
+    password: aluno12_cre
+    url: jdbc:oracle:thin:@10.99.220.86:1521:ORCL

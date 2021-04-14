@@ -1,0 +1,21 @@
+.tv-show-details > .row {
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin: var(--gutter) 0;
+}
+
+.tv-show-details .column {
+  width: 70%;
+  margin-left: 60px;
+}
+
+.tv-show-details__title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tv-show-details__title-container .watchlist-toggle {
+  margin-right: var(--mini-gutter);
+}
+

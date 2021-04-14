@@ -1,0 +1,6 @@
+.container {
+  width: 92%;
+  margin: 0 auto;
+  padding: 0 var(--gutter) var(--gutter);
+  display: block;
+}

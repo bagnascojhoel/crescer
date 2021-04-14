@@ -1,0 +1,13 @@
+export { Title } from './title/title.component';
+export { Rating } from './rating/rating.component';
+export { TvShowCard } from './tv-show-card/tv-show-card.component';
+export { Pagination } from './pagination/pagination.component';
+export { GoBackButton } from './go-back-button/go-back-button.component';
+export { Thumbnail } from './thumbnail/thumbnail.component';
+export { Summary } from './summary/summary.component';
+export { GenreList } from './genre-list/genre-list.component';
+export { HeaderNavOption } from './header-nav-option/header-nav-option.component';
+export { TvShowCardList } from './tv-show-card-list/tv-show-card-list.component';
+export { ListWithPagination } from './list-with-pagination/list-with-pagination.component';
+export { WatchlistToggle } from './watchlist-toggle/watchlist-toggle.component';
+export { DashboardOption } from './dashboard-option/dashboard-item.component';

@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    username: ALUNO12_CRE
+    password: ALUNO12_CRE
+    url: jdbc:oracle:thin:@10.99.220.86:1521:ORCL
+    driver-class-name: oracle.jdbc.OracleDriver

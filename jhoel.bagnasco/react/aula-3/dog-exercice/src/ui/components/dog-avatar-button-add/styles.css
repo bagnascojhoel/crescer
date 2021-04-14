@@ -1,0 +1,21 @@
+.dog-avatar-button-add {
+  --color-content: white;
+  --border-radius: 60px;
+
+  margin: 0 auto;
+  padding: 15px 25px;
+  border-radius: var(--border-radius);
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-content);
+}
+
+.dog-avatar-button-add__icon {
+  width: 30px;
+  margin-left: 15px;
+  fill: var(--color-content);
+}

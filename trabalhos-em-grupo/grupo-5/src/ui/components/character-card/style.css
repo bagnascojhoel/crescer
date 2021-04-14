@@ -1,0 +1,98 @@
+.card {
+  width: 370px;
+  color: white;
+  padding: var(--small-gutter);
+  border-radius: 6px;
+  margin: 0 5px var(--small-gutter);
+  box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 55, 107, 1) 0%,
+    rgba(20, 39, 180, 1) 52%,
+    rgba(77, 47, 186, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card--no-actions {
+  pointer-events: none;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card--horde {
+  background: linear-gradient(
+    70deg,
+    rgba(166, 0, 0, 1) 0%,
+    rgba(182, 14, 14, 1) 52%,
+    rgba(198, 1, 1, 1) 100%
+  );
+}
+
+.card--busy{
+  filter: grayscale(1);
+}
+
+
+.characters-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.character-card__content {
+  display: flex;
+}
+
+.character-card__avatar {
+  width: 40%;
+  align-content: center;
+}
+
+.character-card__avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.character-card__infos {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.character-card__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.character-card__action-buttons {
+  display: flex;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.character-card__action-buttons a{
+  padding: 10px 42px;
+  border-radius: 5px;
+}
+
+.link-container{
+  width: 70%;
+}
+
+.link-container a{
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link-container :hover{
+  cursor: pointer;
+}
+
+

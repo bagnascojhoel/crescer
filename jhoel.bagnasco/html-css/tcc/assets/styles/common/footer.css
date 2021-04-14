@@ -1,0 +1,67 @@
+.page-footer {
+  background-color: white;
+  padding: 40px 0;
+}
+
+.page-footer > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-footer > .container > section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.page-footer > .container > section:first-of-type {
+  margin-bottom: 30px;
+}
+
+.page-footer p {
+  margin-bottom: 0;
+  color: var(--color-grey);
+}
+
+.page-footer__logo,
+.page-footer__crescer-logo {
+  height: 34px;
+  width: auto;
+}
+
+.page-footer-menu {
+  padding: 0;
+  list-style: none;
+}
+
+.page-footer-menu__item  {
+  display: inline-block;
+  margin-right: var(--gutter);
+}
+
+.page-footer-menu__item > a,
+.page-footer-menu__item > a:visited {
+  color: var(--color-grey);
+}
+
+@media (max-width: 1023px) {
+  .page-footer-menu {
+    display: none;
+  }
+
+  .page-footer__crescer-logo {
+    display: none;
+  }
+
+  .page-footer > .container {
+    flex-direction: row;
+  }
+
+  .page-footer > .container > section:first-of-type {
+    margin-bottom: 0;
+  }
+}

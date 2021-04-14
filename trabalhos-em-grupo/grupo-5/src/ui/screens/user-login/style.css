@@ -1,0 +1,18 @@
+.login-screen {
+  width: 400px;
+  margin-top: var(--gutter);
+}
+
+.login-screen img{
+  width: 100%;
+}
+
+.login-screen button{
+  display: block;
+  margin: var(--gutter) auto 0;
+}
+
+.secondary-button{
+  background-color: var(--color-brown);
+}
+

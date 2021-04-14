@@ -1,0 +1,62 @@
+body {
+  --gutter: 15px;
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+ul {
+  padding-left: var(--gutter);
+}
+
+li {
+  margin-bottom: 5px;
+  list-style: square;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: .5s;
+}
+
+a:hover {
+  color: darkgoldenrod;
+  transform: skewX(-10deg);
+}
+
+p {
+  font-family: serif;
+}
+
+table {
+  margin: var(--gutter) auto;
+}
+
+.double-column {
+  display: flex;
+  flex: row;
+}
+
+.column {
+  margin: var(--gutter);
+  min-width: 300px;
+}
+
+aside {
+  border-left: 1px solid black;
+  padding-left: var(--gutter);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;  
+}

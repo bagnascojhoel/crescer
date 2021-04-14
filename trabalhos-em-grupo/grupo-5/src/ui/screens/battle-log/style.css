@@ -1,0 +1,24 @@
+.battle-log__winner {
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  color: var(--color-light-yellow);
+}
+
+.battle-log__winner > div {
+  min-width: 300px;
+  padding: var(--gutter);
+  
+  background-color: var(--color-yellow);
+  border-radius: var(--border-radius);
+}
+
+.battle-log-images{
+  display: flex;
+  justify-content: space-between;
+}
+
+.battle-log-images .avatar{
+  background-position: top;
+}

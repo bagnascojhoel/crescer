@@ -1,0 +1,29 @@
+.header-container {
+  margin: var(--gutter) 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.screen-title {
+  color: var(--color-yellow);
+  margin: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.no-button {
+  display: none;
+}
+
+.header-container .link-button{
+  width: 150px;
+  margin: 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+

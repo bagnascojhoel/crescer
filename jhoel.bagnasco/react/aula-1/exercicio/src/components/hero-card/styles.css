@@ -1,0 +1,25 @@
+.hero-card__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-card__title,
+.hero-card__subtitle {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero-card__title {
+  font-size: 1.5rem;
+}
+
+.hero-card__subtitle {
+  font-weight: 300;
+}
+
+
+.hero-card__text-content {
+  margin-left: var(--gutter);
+}

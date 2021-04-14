@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --box-shadow:  0 30px 45px 5px rgba(0,0,0,.3);
+  --gutter: 15px;
+  --border-color: #9a9a9a;
+  background-color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: inline-block;
+  max-width: 70vw;
+  margin-left: 50px;
+}
+
+hr {
+  margin: var(--gutter) auto;
+  max-width: 80%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: .5s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+a:visited {
+  color: inherit;
+}
+
+p {
+  font-family: serif;
+}
+
+table {
+  width: 100%;
+  margin: var(--gutter) auto;
+}
+
+li {
+  margin-bottom: var(--gutter);
+}
+
+footer {
+  text-align: right;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  padding: var(--gutter);
+}
+
+.banner-content {
+  display: inline-block;
+  min-width: 20vw;
+  max-width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+}
+
+.content {
+  margin: var(--gutter) auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  line-height: 1.8rem;
+  width: 30vw;
+  min-width: 300px;
+}
+
+.double-column {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin: var(--gutter);
+  min-width: 300px;
+}
+
+.subtitle {
+  margin-top: 0;
+}
+
+.actors-list {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.actors-list__item {
+  width: 100%;
+}
+
+.actors-list__item  .image-wrapper {
+  --side: 75px;
+  width: var(--side);
+  height: var(--side);
+  overflow: hidden;
+  border-radius: 300px;
+  background-color: yellow;
+  box-shadow: var(--box-shadow);
+  border: 2px solid white;
+}
+
+.actors-list__item__name {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 60%;
+}
+
+.actors-list__item__name:visited {
+  color: initial;
+}
+
+.actors-list__link-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#matthew-mcconaughey {
+  width: 130%;
+  margin-left: -20px;
+}
+
+#anne-hathaway {
+  width: 200%;
+  margin-left: -35px;
+}
+
+#jessica-chastain {
+  width: 180%;
+  margin-left: -25px;
+}
+
+#actors-list-container {
+  text-align: right;
+  max-width: 350px;
+}
+
+

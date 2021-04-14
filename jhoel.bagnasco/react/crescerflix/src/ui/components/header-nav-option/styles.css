@@ -1,0 +1,8 @@
+.header-nav-option {
+  margin-right: var(--small-gutter);
+  display: inline-block;
+}
+
+.header-nav-option:last-of-type {
+  margin-right: 0;
+}

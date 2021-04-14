@@ -1,0 +1,25 @@
+.dashboard-option-card {
+  --color: white;
+
+  width: 100%;
+  padding: var(--gutter);
+  margin-bottom: var(--gutter);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--color-yellow);
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+
+  text-decoration: none;
+}
+
+.dashboard-option-card__title {
+  margin: 0;
+
+  font-size: 2rem;
+  color: var(--color);
+}

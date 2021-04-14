@@ -1,0 +1,8 @@
+server:
+  port: 8100
+  servlet:
+    context-path: /me-leva-ai
+  error:
+    include-message: ALWAYS
+    include-stacktrace: NEVER
+    include-binding-errors: ALWAYS

@@ -1,0 +1,12 @@
+.go-back-button {
+  padding: var(--mini-gutter);
+  margin-right: var(--gutter);
+  
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.go-back-button:focus {
+  outline: none;
+}
